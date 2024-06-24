@@ -1,0 +1,157 @@
+body {
+    font-family: 'Kufam', sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+    background-color: #e0f7fa; /* لون الخلفية الأساسي */
+}
+
+header {
+    background-color: #aed581; /* لون الخلفية للرأس */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+header p {
+    margin: 10px 0 20px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+header button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #555;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+}
+
+.activities {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.activities h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.activities p {
+    font-size: 1em;
+    color: #666;
+    margin: 20px 0;
+}
+
+.activity-icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.activity {
+    text-align: center;
+}
+
+.activity img {
+    width: 80px;
+    height: auto;
+}
+
+.activity p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+.event-info {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.event-info h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.event-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.event-info ul li {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.event-info ul li span {
+    font-weight: bold;
+    color: #333;
+}
+
+.event-info p {
+    font-size: 1em;
+    color: #666;
+    margin: 20px 0;
+}
+
+.event-info button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+event-info button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 20px 0 0;
+    font-size: 1em;
+}
